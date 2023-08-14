@@ -25,7 +25,7 @@ defmodule Identicon do
 
   end
 
-  def build_grid(image) do
+  def build_grid(%Identicon.Image{hex: hex} = image) do
 
 
 
